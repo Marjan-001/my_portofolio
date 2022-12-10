@@ -73,9 +73,9 @@ export default function Home() {
         <section>
           <h3 className='text-3xl py-10 text-center text-purple-600'> My Projects</h3>
           <div className='grid  grid-cols-1  justify-items-center gap-4' >
-            <Image data-aos="zoom-in" src={pro1} width={900} height={700} alt='' />
+            <Image src={pro1} width={900} height={700} alt='' />
             <a className='bg-gradient-to-r from-purple-600 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href="https://assignment-11-personal-stylist.web.app/">Live Site</a>
-            <Image data-aos="zoom-in" className="py=10" src={pro2} width={900} height={700} alt='' />
+            <Image className="py=10" src={pro2} width={900} height={700} alt='' />
             <a className='bg-gradient-to-r from-purple-600 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href="https://laptop-swappers.web.app/">Live Site</a>
           </div>
         </section>
